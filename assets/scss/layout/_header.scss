@@ -1,0 +1,28 @@
+header{
+   // background-image: url('../image/post-image.jpg');
+   // background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding:300px;
+    background-color: $jellybean;
+}
+
+%h{
+    text-align: center;
+    color: $white;
+    font-family: $raleway;
+}
+
+
+.header__h1{
+    @extend %h;
+    font-size: $x-large;
+    font-weight: 300;
+}    
+
+.header__h2{
+    @extend %h;
+    
+    font-size: $large;
+    font-weight: bold;
+}
