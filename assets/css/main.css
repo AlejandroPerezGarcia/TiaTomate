@@ -9983,21 +9983,29 @@ header {
 
 .orga {
   background-color: #91918d;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .orga__img {
-  padding: 100px;
+  height: 350px;
+  width: auto;
 }
 
 .orga_h3 {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .orga__text {
+  padding-left: 150px;
+  padding-right: 150px;
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
