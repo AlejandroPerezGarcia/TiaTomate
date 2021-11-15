@@ -9950,6 +9950,16 @@ body {
   margin: 0;
 }
 
+footer {
+  background-color: #686963;
+}
+
+.footer-img {
+  padding: 30px;
+  height: 150px;
+  width: auto;
+}
+
 header {
   background-size: cover;
   background-position: left;
@@ -10060,13 +10070,16 @@ header {
 }
 
 .nosotros {
-  padding: 30px;
+  padding: 70px;
   background-color: #e56353;
   text-align: center;
-  color: #91918d;
+}
+
+.nosotro__titulo {
+  color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 50px;
-  font-weight: 400;
+  font-size: 70px;
+  font-weight: bold;
 }
 
 .nosotros_h4 {
@@ -10080,13 +10093,55 @@ header {
   font-weight: 400;
 }
 
-.nosotros__text {
+.nosotros__text4, .nosotros__text3, .nosotros__text2, .nosotros__text1 {
   padding-left: 150px;
   padding-right: 150px;
   color: #91918d;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+.nosotros__text1 {
+  padding-bottom: 5px;
+}
+
+.nosotros__text2 {
+  padding-bottom: 5px;
+}
+
+.nosotros__text3 {
+  padding-bottom: 5px;
+}
+
+.nosotros__text4 {
+  padding-bottom: 30px;
+}
+
+.negocio {
+  padding: 100px;
+  background-color: #e56353;
+}
+
+.negocio__h2 {
+  color: #fff;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #686963;
+  display: inline-block;
+  padding: 0 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  border-radius: 2.5rem;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */

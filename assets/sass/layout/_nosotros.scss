@@ -16,13 +16,16 @@
 }
 
 .nosotros{
-    padding: 30px;
+    padding: 70px;
     background-color:$jellybean ;
     text-align: center;
-    color: $taupegray;
+  }
+
+.nosotro__titulo{
+    color: $white;
     font-family: $raleway;
-    font-size: $large;
-    font-weight: 400;
+    font-size: $x-large;
+    font-weight: bold;
 }
 
 .nosotros_h4{
@@ -36,11 +39,31 @@
     font-weight: 400;
 }
 
-.nosotros__text{
+%texto{
     padding-left: 150px;
     padding-right: 150px;
     color: $taupegray;    
     font-family: $raleway;
     font-size: $medium;
     font-weight: 400;
+}
+
+.nosotros__text1{
+    padding-bottom: 5px;
+    @extend %texto;    
+}
+
+.nosotros__text2{
+    padding-bottom: 5px;
+    @extend %texto;    
+}
+
+.nosotros__text3{
+    padding-bottom: 5px;
+    @extend %texto;      
+}
+
+.nosotros__text4{
+    padding-bottom: 30px;
+    @extend %texto;    
 }

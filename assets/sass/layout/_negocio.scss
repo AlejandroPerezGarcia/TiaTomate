@@ -1,0 +1,26 @@
+.negocio{
+    padding: 100px;
+    background-color: $jellybean;
+}
+
+.negocio__h2{
+    color: $white;
+    font-size: $large;
+    font-family: $raleway ;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.btn{
+    
+    background-color: $white;
+    color: $granitegary;
+    display: inline-block;
+    padding: 0 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 2.5rem;    
+    font-size: $large;
+    font-family: $raleway ;
+    font-weight: bold;
+}
